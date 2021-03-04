@@ -13,6 +13,7 @@
 		EB37982025E8894E00BAC38E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB37981F25E8894E00BAC38E /* Assets.xcassets */; };
 		EB37982325E8894E00BAC38E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB37982225E8894E00BAC38E /* Preview Assets.xcassets */; };
 		EB37982625E8894E00BAC38E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB37982425E8894E00BAC38E /* LaunchScreen.storyboard */; };
+		EB84446725E9B1A40057ACD2 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EB84446625E9B1A40057ACD2 /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EB37982225E8894E00BAC38E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EB37982525E8894E00BAC38E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB37982725E8894E00BAC38E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB84446625E9B1A40057ACD2 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				EB37981F25E8894E00BAC38E /* Assets.xcassets */,
 				EB37982425E8894E00BAC38E /* LaunchScreen.storyboard */,
 				EB37982725E8894E00BAC38E /* Info.plist */,
+				EB84446625E9B1A40057ACD2 /* SleepCalculator.mlmodel */,
 				EB37982125E8894E00BAC38E /* Preview Content */,
 			);
 			path = BetterRest;
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB37981A25E8894C00BAC38E /* AppDelegate.swift in Sources */,
+				EB84446725E9B1A40057ACD2 /* SleepCalculator.mlmodel in Sources */,
 				EB37981C25E8894C00BAC38E /* SceneDelegate.swift in Sources */,
 				EB37981E25E8894C00BAC38E /* ContentView.swift in Sources */,
 			);
